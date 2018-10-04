@@ -1,8 +1,8 @@
 name       : rubyzip
-version    : 1.2.1
-release    : 1
+version    : 1.2.2
+release    : 2
 source     :
-    - https://rubygems.org/downloads/rubyzip-1.2.1.gem : 1f7f53c83752517fe764fe9451294d6f879d5e65b2ee46055308be6fff235a1a
+    - https://rubygems.org/downloads/rubyzip-1.2.2.gem : 32fb890700caae31eec13bcc3b4a15aff74cc3fb1d1222fc113041deb45834d8
 license    : BSD-2-Clause
 component  : programming.ruby
 summary    : RubyGem - rubyzip
