@@ -1,6 +1,6 @@
 name       : rubyzip
 version    : 1.2.2
-release    : 3
+release    : 4
 source     :
     - https://rubygems.org/downloads/rubyzip-1.2.2.gem : 32fb890700caae31eec13bcc3b4a15aff74cc3fb1d1222fc113041deb45834d8
 license    : BSD-2-Clause
