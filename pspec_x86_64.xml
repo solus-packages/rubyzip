@@ -2,8 +2,8 @@
     <Source>
         <Name>rubyzip</Name>
         <Packager>
-            <Name>F. von Gellhorn</Name>
-            <Email>flinux@vongellhorn.ch</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@streambits.io</Email>
         </Packager>
         <License>BSD-2-Clause</License>
         <PartOf>programming.ruby</PartOf>
@@ -19,139 +19,64 @@
 </Description>
         <PartOf>programming.ruby</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/build_info</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/doc</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/extensions</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/README.md</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/Rakefile</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/TODO</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/lib/zip.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/lib/zip/central_directory.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/lib/zip/compressor.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/lib/zip/constants.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/lib/zip/crypto/encryption.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/lib/zip/crypto/null_encryption.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/lib/zip/crypto/traditional_encryption.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/lib/zip/decompressor.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/lib/zip/deflater.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/lib/zip/dos_time.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/lib/zip/entry.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/lib/zip/entry_set.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/lib/zip/errors.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/lib/zip/extra_field.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/lib/zip/extra_field/generic.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/lib/zip/extra_field/ntfs.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/lib/zip/extra_field/old_unix.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/lib/zip/extra_field/universal_time.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/lib/zip/extra_field/unix.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/lib/zip/extra_field/zip64.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/lib/zip/extra_field/zip64_placeholder.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/lib/zip/file.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/lib/zip/filesystem.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/lib/zip/inflater.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/lib/zip/input_stream.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/lib/zip/ioextras.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/lib/zip/ioextras/abstract_input_stream.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/lib/zip/ioextras/abstract_output_stream.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/lib/zip/null_compressor.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/lib/zip/null_decompressor.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/lib/zip/null_input_stream.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/lib/zip/output_stream.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/lib/zip/pass_thru_compressor.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/lib/zip/pass_thru_decompressor.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/lib/zip/streamable_directory.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/lib/zip/streamable_stream.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/lib/zip/version.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/samples/example.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/samples/example_filesystem.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/samples/example_recursive.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/samples/gtk_ruby_zip.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/samples/qtzip.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/samples/write_simple.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/samples/zipfind.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/basic_zip_file_test.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/case_sensitivity_test.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/central_directory_entry_test.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/central_directory_test.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/crypto/null_encryption_test.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/crypto/traditional_encryption_test.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/data/WarnInvalidDate.zip</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/data/file1.txt</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/data/file1.txt.deflatedData</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/data/file2.txt</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/data/globTest.zip</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/data/globTest/foo.txt</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/data/globTest/foo/bar/baz/foo.txt</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/data/globTest/food.txt</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/data/gpbit3stored.zip</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/data/mimetype</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/data/notzippedruby.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/data/ntfs.zip</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/data/oddExtraField.zip</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/data/path_traversal/Makefile</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/data/path_traversal/jwilk/README.md</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/data/path_traversal/jwilk/absolute1.zip</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/data/path_traversal/jwilk/absolute2.zip</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/data/path_traversal/jwilk/dirsymlink.zip</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/data/path_traversal/jwilk/dirsymlink2a.zip</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/data/path_traversal/jwilk/dirsymlink2b.zip</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/data/path_traversal/jwilk/relative0.zip</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/data/path_traversal/jwilk/relative2.zip</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/data/path_traversal/jwilk/symlink.zip</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/data/path_traversal/relative1.zip</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/data/path_traversal/tuzovakaoff/README.md</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/data/path_traversal/tuzovakaoff/absolutepath.zip</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/data/path_traversal/tuzovakaoff/symlink.zip</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/data/rubycode.zip</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/data/rubycode2.zip</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/data/test.xls</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/data/testDirectory.bin</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/data/zip64-sample.zip</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/data/zipWithDirs.zip</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/data/zipWithEncryption.zip</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/deflater_test.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/encryption_test.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/entry_set_test.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/entry_test.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/errors_test.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/extra_field_test.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/file_extract_directory_test.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/file_extract_test.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/file_permissions_test.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/file_split_test.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/file_test.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/filesystem/dir_iterator_test.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/filesystem/directory_test.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/filesystem/file_mutating_test.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/filesystem/file_nonmutating_test.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/filesystem/file_stat_test.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/gentestfiles.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/inflater_test.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/input_stream_test.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/ioextras/abstract_input_stream_test.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/ioextras/abstract_output_stream_test.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/ioextras/fake_io_test.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/local_entry_test.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/output_stream_test.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/pass_thru_compressor_test.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/pass_thru_decompressor_test.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/path_traversal_test.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/samples/example_recursive_test.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/settings_test.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/test_helper.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/unicode_file_names_and_comments_test.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/zip64_full_test.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/rubyzip-1.2.2/test/zip64_support_test.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/specifications/rubyzip-1.2.2.gemspec</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/rubyzip-2.3.0/README.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/rubyzip-2.3.0/Rakefile</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/rubyzip-2.3.0/TODO</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/rubyzip-2.3.0/lib/zip.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/rubyzip-2.3.0/lib/zip/central_directory.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/rubyzip-2.3.0/lib/zip/compressor.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/rubyzip-2.3.0/lib/zip/constants.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/rubyzip-2.3.0/lib/zip/crypto/decrypted_io.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/rubyzip-2.3.0/lib/zip/crypto/encryption.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/rubyzip-2.3.0/lib/zip/crypto/null_encryption.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/rubyzip-2.3.0/lib/zip/crypto/traditional_encryption.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/rubyzip-2.3.0/lib/zip/decompressor.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/rubyzip-2.3.0/lib/zip/deflater.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/rubyzip-2.3.0/lib/zip/dos_time.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/rubyzip-2.3.0/lib/zip/entry.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/rubyzip-2.3.0/lib/zip/entry_set.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/rubyzip-2.3.0/lib/zip/errors.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/rubyzip-2.3.0/lib/zip/extra_field.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/rubyzip-2.3.0/lib/zip/extra_field/generic.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/rubyzip-2.3.0/lib/zip/extra_field/ntfs.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/rubyzip-2.3.0/lib/zip/extra_field/old_unix.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/rubyzip-2.3.0/lib/zip/extra_field/universal_time.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/rubyzip-2.3.0/lib/zip/extra_field/unix.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/rubyzip-2.3.0/lib/zip/extra_field/zip64.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/rubyzip-2.3.0/lib/zip/extra_field/zip64_placeholder.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/rubyzip-2.3.0/lib/zip/file.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/rubyzip-2.3.0/lib/zip/filesystem.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/rubyzip-2.3.0/lib/zip/inflater.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/rubyzip-2.3.0/lib/zip/input_stream.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/rubyzip-2.3.0/lib/zip/ioextras.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/rubyzip-2.3.0/lib/zip/ioextras/abstract_input_stream.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/rubyzip-2.3.0/lib/zip/ioextras/abstract_output_stream.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/rubyzip-2.3.0/lib/zip/null_compressor.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/rubyzip-2.3.0/lib/zip/null_decompressor.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/rubyzip-2.3.0/lib/zip/null_input_stream.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/rubyzip-2.3.0/lib/zip/output_stream.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/rubyzip-2.3.0/lib/zip/pass_thru_compressor.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/rubyzip-2.3.0/lib/zip/pass_thru_decompressor.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/rubyzip-2.3.0/lib/zip/streamable_directory.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/rubyzip-2.3.0/lib/zip/streamable_stream.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/rubyzip-2.3.0/lib/zip/version.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/rubyzip-2.3.0/samples/example.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/rubyzip-2.3.0/samples/example_filesystem.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/rubyzip-2.3.0/samples/example_recursive.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/rubyzip-2.3.0/samples/gtk_ruby_zip.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/rubyzip-2.3.0/samples/qtzip.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/rubyzip-2.3.0/samples/write_simple.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/rubyzip-2.3.0/samples/zipfind.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/specifications/rubyzip-2.3.0.gemspec</Path>
         </Files>
     </Package>
     <History>
-        <Update release="4">
-            <Date>2019-10-07</Date>
-            <Version>1.2.2</Version>
+        <Update release="5">
+            <Date>2020-06-26</Date>
+            <Version>2.3.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>F. von Gellhorn</Name>
-            <Email>flinux@vongellhorn.ch</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@streambits.io</Email>
         </Update>
     </History>
 </PISI>

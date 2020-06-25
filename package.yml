@@ -1,16 +1,17 @@
 name       : rubyzip
-version    : 1.2.2
-release    : 4
+version    : 2.3.0
+release    : 5
 source     :
-    - https://rubygems.org/downloads/rubyzip-1.2.2.gem : 32fb890700caae31eec13bcc3b4a15aff74cc3fb1d1222fc113041deb45834d8
+    - https://rubygems.org/downloads/rubyzip-2.3.0.gem : 5196155ab0d4060e4b4a482c1c1bd43198149605bd925fee4d40c494afa82015
 license    : BSD-2-Clause
 component  : programming.ruby
 summary    : RubyGem - rubyzip
 description: |
     rubyzip is a ruby module for reading and writing zip files.
 builddeps  :
-    - pkgconfig(ruby-2.6)
+    - pkgconfig(ruby-2.7)
 rundeps    :
     - ruby
 install    : |
     %gem_install
+    rm -rf $installdir/$geminstalldir/{build_info,doc,extensions}
